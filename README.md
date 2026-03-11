@@ -17,8 +17,6 @@ Bu proje, büyük veri kümelerindeki benzersiz eleman (cardinality) sayısını
 
 Geleneksel veri yapıları (örn. `HashSet`) **$O(N)$** bellek karmaşıklığına sahipken, HyperLogLog algoritması **$O(\log(\log(N)))$** bellek tüketimi ile çalışarak milyarlarca veriyi yalnızca birkaç kilobaytlık bir alanda çok düşük bir hata payıyla sayabilmektedir.
 
-Bu proje kapsamında **Agentic Kodlama (Agentic Coding)** yaklaşımı benimsenerek, modern büyük dil modelleri (LLM) ve otonom kodlama asistanları yardımıyla geliştirme süreci yönetilmiştir.
-
 ---
 
 ## ⚙️ Gerçeklenen Temel Bileşenler (Özellikler)
@@ -42,14 +40,6 @@ Temel kural olarak, standart hata formülü şu şekildedir:
 $$ SE \approx \frac{1.04}{\sqrt{m}} $$
 
 Kova sayısı $m$ ($2^p$) logaritmik olarak artırıldığında, bellek tüketimi doğrusal olarak büyürken, tahmin hatası parabolik olarak küçülmektedir. Tüm detaylı incelemeler, matematiksel ispatlar ve örneklemeler analiz dokümanında ve proje sunumunda görülebilir.
-
----
-
-## 🤖 Agentic Kodlama ve Teknoloji Yığını
-
-- **Dil:** Java
-- **IDE:** [Kullanılan IDE eklenecek, örn: IntelliJ IDEA / VS Code]
-- **Yapay Zeka & Agentic Yaklaşım:** Bu projenin geliştirilmesi ve mimarisinin oturtulması sırasında **[Örn: Gemini 1.5 Pro / Antigravity Agent]** gibi modern modeller otonom asistan (Agentic Coding) yönergeleri doğrultusunda kullanılmış, bileşenlerin kodlanması, hata tespiti ve README/Analiz dokümanlarının oluşturulması iteratif bir yapay zeka-insan işbirliği ile sağlanmıştır.
 
 ---
 
