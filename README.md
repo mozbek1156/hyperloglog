@@ -76,5 +76,5 @@ Java derleyicisi veya bir IDE (Run tuşu) vasıtasıyla `src/` klasörü içeris
 ---
 <div align="center">
 Geliştirici: <b>Muhammed Özbek</b><br>
-Final Değerlendirme Ödevi - 2
+
 </div>
